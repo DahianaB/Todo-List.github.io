@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title> Todo app</title>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="misEstilos.css">
+
+</head>
+<body>
+
+
+  <div class="wrapper">
+    <div class="todo-container">
+      <div class="row">
+
+        <div class="col-12 mx-auto max-w">
+
+          <div class="header-todo d-flex align-items-center justify-content-between">
+            <h1 class=" ">TODO</h1>
+            <div id="light-dark-mode" class="cursor-pointer">
+              <!-- <img src="images/icon-sun.svg" alt=""> -->
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center bg-dark rounded-lg p-3 mb-4 shadow">
+            
+              <input type="checkbox" name="circulo" id="">
+              
+            <input type="text"  placeholder="Create a new todo..." class=" input-task ml-3" name="" id="">
+          </div>
+
+        
+
+
+        </div>
+
+        
+      </div>
+    </div>
+ <!-- caja-padre -->
+ <div class="col-12 mx-auto max-w">
+  <div class="caja-padre bg-dark  rounded-lg shadow">
+     <div class="tareas-container">
+       <!-- <div class="añadir text-white align-items-center d-flex p-3 border-light border-bottom">
+         <label class="d-flex align-items-center cursor-pointer mb-0 w-100" for="">
+           <input type="checkbox" name="circulo" id="circulo">
+           <p class="mb-0  ml-3">Tarea 1</p>
+         </label>
+         <div class="cross cursor-pointer">
+            
+         </div>
+       </div> -->
+      
+     </div>
+      <!-- footer-escritorio -->
+     <div class="tareas-footer p-3 d-flex justify-content-between ">
+       <p class="mb-0 text-white-filtro  ">
+         <span class="n-items">5</span>
+         items left
+       </p>
+       <div class="filter d-none d-sm-flex  justify-content-between text-white-filtro">
+         <p id="all" class=" mb-0 click cursor-pointer">All</p>
+         <p id="active" class="mb-0 cursor-pointer mx-3">Active</p>
+         <p id="completed" class="mb-0 cursor-pointer">Completed</p>
+         
+       </div>
+       <p class="clear-completed mb-0 clear text-white-filtro cursor-pointer">Clear Completed</p>
+       
+     </div>
+
+
+    
+      
+      
+    </div>
+     <!-- footer-mobile -->
+     <div class=" bg-dark shadow d-none d-sm-none rounded-lg tareas-footer p-3 d-flex justify-content-center mt-3">
+      
+      <div class="filter d-flex justify-content-between ">
+        <p id="all" class=" mb-0 click cursor-pointer">All</p>
+        <p id="active" class="mb-0 cursor-pointer mx-3">Active</p>
+        <p id="completed" class="mb-0 cursor-pointer">Completed</p>
+        
+      </div>
+ </div> 
+ </div>
+   
+  </div>
+
+   
+    
+  </div>
+  </div>
+
+
+
+  
+
+  
+
+
+  <div class="attribution text-white">
+   
+    Coded by <a href="#">Dahiana Bustamante</a>.
+  </div>
+  <script src="codigo.js"></script>
+
+</body>
+</html>
